@@ -1,0 +1,8 @@
+version: '3'
+services:
+  your-app:
+    image: zakaullah075/node-app:latest  # Specifies the image name and path
+    build: .
+    ports:
+      - "80:8000"  # Mapping port 80 on the host to port 8000 in the container
+
