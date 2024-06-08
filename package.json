@@ -1,16 +1,16 @@
 {
-  "name": "your-app",
+  "name": "node-app",
   "version": "1.0.0",
-  "description": "A simple Node.js application",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"  // Add this line
   },
-  "author": "Your Name",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0"  // Add this line if you installed mocha
   }
 }
-
