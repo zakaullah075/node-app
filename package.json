@@ -5,12 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"  // Add this line
+    "test": "mocha"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "mocha": "^9.0.0"  // Add this line if you installed mocha
+    "mocha": "^9.0.0"
   }
 }
